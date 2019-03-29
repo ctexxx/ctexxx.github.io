@@ -1,0 +1,48 @@
+ /* Compress with https://csscompressor.com/ */
+
+html, body, *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #212121;
+}
+
+.content {
+    padding-bottom: 20vh;
+    margin: auto;
+
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+a {
+    color: #25acd7;
+    text-decoration: none;
+}
+
+@keyframes fadeIn {
+    0%, 70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
