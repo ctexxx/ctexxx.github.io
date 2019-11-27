@@ -1,6 +1,4 @@
- /* Compress with https://csscompressor.com/ */
-
-html, body, *, *::before, *::after {
+html, body, *, ::before, ::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,11 +13,10 @@ body {
     width: 100vw;
     height: 100vh;
 
-    background-color: #212121;
+    background-color: #000000;
 }
 
 .content {
-    padding-bottom: 20vh;
     margin: auto;
 
     font-size: 20px;
@@ -28,7 +25,7 @@ body {
     text-align: center;
 
     animation-name: fadeIn;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
 }

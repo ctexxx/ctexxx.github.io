@@ -1,0 +1,30 @@
+html, body, *, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000
+}
+
+.content {
+    margin: auto;
+    font-size: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #25acd7;
+    text-decoration: none;
+}
